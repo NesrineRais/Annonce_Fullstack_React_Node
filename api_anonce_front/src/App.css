@@ -1,0 +1,73 @@
+.App {
+  text-align: center;
+}
+.App nav a {
+  margin: 25px;
+  color: white;
+  text-decoration: none;
+}
+h1 {
+  color: red;
+}
+.App nav {
+  padding: 30px;
+  background-color: #282c34;
+}
+nav a {
+  display: inline-block;
+  margin: 10px 20px;
+}
+
+.App .home-page ul {
+  width: 40%;
+  margin: auto;
+}
+.App .home-page ul li {
+  list-style: none;
+  padding: 25px;
+  border: 2px solid #282c34;
+}
+.App .home-page ul li a {
+  text-decoration: none;
+  color: #282c34;
+  font-size: 1.5em;
+}
+.App .home-page ul li img {
+  width: 15%;
+}
+
+.App form {
+  width: 60%;
+  margin: auto;
+  text-align: center;
+  border: 2px solid #282C34;
+  border-radius: 15px;
+  padding: 25px 10px;
+
+}
+.App form input, .App form button, .App form textarea {
+  display: block;
+  margin: 10px auto;
+}
+input[type="text" i] {
+  padding: 1px 2px;
+}
+.App .admin-page table {
+  width: 60%;
+  margin: auto;
+  margin-top: 100px;
+  border-spacing: 0;
+}
+thead {
+  display: table-header-group;
+  vertical-align: middle;
+  border-color: inherit;
+}
+.App .admin-page table th {
+  border: 1px solid grey;
+  padding: 15px;
+}
+.App .admin-page table td {
+  border: 1px solid grey;
+  padding: 15px;
+}

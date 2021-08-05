@@ -1,0 +1,21 @@
+// installation redux sur react
+
+npm install redux react-redux redux-thunk redux-devtools-extension
+
+
+Il faut créer plusieurs dossier et fichier
+
+au niveau du src :
+
+- creer le fichier store.js, toujours copier / coller la même chose
+- creer un dosser reducers et un dossier actions
+
+
+au niveau du fichier index.js
+-ajouter le Provider au dessus de BrowserRouter 
+- importer store.js
+- Dans la balise provider ajouter le store
+
+Dans le dossier Reducer
+- Créer le fichier index.js
+- Créer votre premier réducer et ajouter le dans le fichier index.js

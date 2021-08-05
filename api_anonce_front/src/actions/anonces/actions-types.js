@@ -1,0 +1,1 @@
+export const LOAD_ALL_ANNONCES = "LOAD_ALL_ANNONCES";
